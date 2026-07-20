@@ -4,7 +4,7 @@ A single-page responsive portfolio (Hero, About, Projects, Contact), deployed on
 AWS S3 and served over HTTPS using CloudFront.
 
 ## Live URL
-`<paste your CloudFront URL here after deployment>`
+https://d2bil4lnxfrjds.cloudfront.net
 
 ## Tech used
 - HTML5 + CSS3 (no framework, no build step)
