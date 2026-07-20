@@ -70,9 +70,6 @@ Waited for the distribution to deploy (~5–15 min), then opened the CloudFront
 domain (`xxxxxx.cloudfront.net`) and confirmed it loads over HTTPS with a valid
 padlock.
 
-### 9. (Optional) Custom domain
-Skipped for now — can be added later via Route 53 + an ACM certificate.
-
 ## Why CloudFront and not just the S3 URL directly?
 S3 static website endpoints only serve over HTTP. CloudFront sits in front of
 S3, caches content at edge locations closer to users (faster load times), and
